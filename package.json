@@ -1,0 +1,28 @@
+{
+  "name": "mcp-toggle",
+  "version": "1.0.0",
+  "description": "Interactive TUI to toggle MCP servers on/off for Claude Code",
+  "type": "module",
+  "bin": {
+    "mcp": "./index.mjs"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "mcp",
+    "model-context-protocol",
+    "toggle",
+    "cli"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OscarJL/mcp-toggle"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.mjs"
+  ]
+}
